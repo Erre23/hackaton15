@@ -1,5 +1,5 @@
 <template>
-    <div class="card card-erre border-success">
+    <div class="card card-erre border-success" title="Click for see detail">
         <router-link
             :to="{
                 name: 'user',
