@@ -1,7 +1,7 @@
 <template>
+  <h1 class='text-primary'>Hackaton 15 - Por Eduardo Rodríguez</h1>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/" class="text-success">LISTA</router-link> 
   </div>
   <router-view/>
 </template>
