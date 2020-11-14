@@ -30,7 +30,8 @@
                 </div>
                 <div class="row">
                     <div class="col-3">Website:</div>
-                    <div class="col-9 text-dark">{{user.website}}
+                    <div class="col-9 text-dark">
+                        <a :href='`http://www.${user.website}`' target="_blank">{{user.website}}</a>
                     </div>
                 </div>
                 <div class="row bg-green">
